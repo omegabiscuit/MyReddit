@@ -1,6 +1,6 @@
 package com.brighambangerter.myreddit.api;
 
-import com.brighambangerter.myreddit.api.PageResponse;
+import com.brighambangerter.myreddit.api.response.PageResponse;
 
 import okhttp3.OkHttpClient;
 import retrofit2.Call;
