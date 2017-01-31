@@ -64,7 +64,7 @@ public class PostAdapter extends RecyclerView.Adapter<PostViewHolder>{
                 .placeholder(R.drawable.placeholder)
                 .into(postViewHolder.thumbnail);
 
-        PostViewHolder.title.setText(Html.fromHtml(article.getData().getTitle()));
+        postViewHolder.title.setText(Html.fromHtml(article.getData().getTitle()));
     }
 
     public void clearAdapter() {
